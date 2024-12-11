@@ -284,7 +284,7 @@ class Square:
     return poss
 
 if __name__ == '__main__':
-  puzzle_string: str = open('puzzle.txt').read()
+  puzzle_string: str = open('puzzle3.txt').read()
   sudoku: Sudoku = Sudoku(puzzle_string)
   sudoku.solve()
   print(sudoku)
